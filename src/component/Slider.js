@@ -58,6 +58,8 @@ const Slider = () => {
               </div>
             </div>
           );
+        } else {
+          return null;
         }
       })}
 
